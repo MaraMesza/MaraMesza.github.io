@@ -3,13 +3,13 @@ var app = document.getElementById('app');
 var typewriter = new Typewriter(app, {
     loop: true
 });
-
-typewriter.typeString('Hello World!')
+typewriter.typeString('Desarrolladora Frontend Jr.')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('Strings can be removed')
+    .typeString('¡Si puedes imaginarlo, puedes crearlo!')
     .pauseFor(2500)
-    .deleteChars(7)
-    .typeString('<strong>altered!</strong>')
+    // número de Caracteres que se borrarán
+    .deleteChars(8)
+    .typeString('<strong>programarlo!</strong>')
     .pauseFor(2500)
     .start();
