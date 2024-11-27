@@ -1,7 +1,6 @@
-Portafolio de Perla SAn Juan realizado en Tecnolochicas Pro.
-## Proyecto responsivo realizado con Bootstrap 5
-Proyecto creado durante el bootcamp de Tecnolochicas PRO, es adaptable a distintos dispositivos o tamaños de pantalla.
-El propósito de está página web es mostrar mi portafolio de proyectos cono desarrolladora web.
+
+## Portafolio de Perla San Juan realizado en Tecnolochicas Pro.
+Proyecto creado con Bootstrap 5 durante el bootcamp de Tecnolochicas PRO, es adaptable a distintos dispositivos o tamaños de pantalla.
 ### Tecnologías
 * HTML
 * CSS
@@ -9,6 +8,6 @@ El propósito de está página web es mostrar mi portafolio de proyectos cono de
 * JAVASCRIPT
 ### El proyecto cuenta con las siguiente secciones:
 * Sobre mi
-* Habilidades
+* Skills
 * Proyectos
 * Contacto
