@@ -1,0 +1,65 @@
+/* Para los tipo de letra especifico(id o etiqueta especifica)  */
+
+*{
+    font-family: "Parkinsans", sans-serif;
+}
+header{
+  /* Aqui va color de la paleta de colores*/
+    background-color: #490a3d;
+}
+header a{
+    color: #8a9b0f;
+}
+.nav-item a{
+  /* Para los iconos del footer */
+    color: #8a9b0f;
+}
+#boton-perfil{ /* Para el boton de perfil*/
+    background-color: #8a9b0f;
+}
+.nav-item a:hover{
+    color: #88baa3;
+}
+#app{
+    color: #ba1e4a;
+}
+.boton-cv{
+    background-color: #8a9b0f;
+    color: #e4e6c3;
+}
+.caja-habilidades{
+    background-color: #63203d;
+    color: #e4e6c3;
+}
+.btn-proyecto{
+    background-color: #ba1e4a;
+}
+.btn-proyecto a{
+    text-decoration: none;
+    color: #e4e6c3;
+}
+.card .card-title{
+    color: #63203d;
+}
+#contacto{
+    background-color: #88baa3;
+    color: #63203d;
+}
+#btn-contacto{
+    background-color: #8a9b0f;
+    color: #e4e6c3;
+}
+#btn-contacto:hover{
+    background-color: #63203d;
+}
+footer ul li a .bi{
+    color: #ba1e4a;
+}
+footer p{
+    color: #ba1e4a;
+}
+footer p a{
+    text-decoration: none;
+    color: #361f2d;
+    
+}
