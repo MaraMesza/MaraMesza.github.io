@@ -4,13 +4,15 @@
     font-family: "Parkinsans", sans-serif;/*Para todo el sitio*/
 }
 header{/* Aqui va un color de la paleta de colores*/
-    background-color: #0c7e7e;
+    background-color: #f5f6f7;
 }
 header a{
     color: #8a9b0f;
 }
 .nav-item a{ /* Para los iconos del footer arriba*/
+    display: flex;
     color: #d1d0d7;
+    
 }
 #boton-perfil{ /* Para el boton de perfil el color, se hace con #*/ 
     background-color: #fc284f;
@@ -49,6 +51,11 @@ header a{
 }
 #btn-contacto:hover{
     background-color: #63203d;
+}
+body {
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 footer ul li a .bi{
     color: #ba1e4a;
