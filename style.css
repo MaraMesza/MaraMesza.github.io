@@ -10,9 +10,9 @@ header a{/*lo q esta dentro de los A en este caso 2 cajas el nombre y las pesta�
     color:#ef0e73;
     
 }
-
-.nav-item a{ /* Para el texto de las pestañas del footer arriba*/
+.nav-item { /* Para el texto de las pestañas del footer arriba*/
     color: #f22b9c;
+    text-decoration: none;
 }
 .nav-item a:hover{
     color: #8e9515;
