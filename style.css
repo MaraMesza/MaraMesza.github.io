@@ -1,36 +1,37 @@
 /* Para los tipo de letra especifico (id o etiqueta especifica)  */
 
-*{
-    font-family: "Parkinsans", sans-serif;/*Para todo el sitio*/
+*{/*Para todo el sitio*/
+    font-family: "Parkinsans", sans-serif;
 }
-header{/* Aqui va un color de la paleta de colores*/
-    background-color: #f5f6f7;
+header{/*Caja q contiene las pestañas y del nombr en el encabezado */
+    background-color: #e9baff;
 }
-header a{
-    color: #8a9b0f;
-}
-.nav-item a{ /* Para los iconos del footer arriba*/
-    display: flex;
-    color: #d1d0d7;
+header a{/*lo q esta dentro de los A en este caso 2 cajas el nombre y las pestañas*/
+    color:#ef0e73;
     
 }
-#boton-perfil{ /* Para el boton de perfil el color, se hace con #*/ 
-    background-color: #fc284f;
+
+.nav-item a{ /* Para el texto de las pestañas del footer arriba*/
+    color: #f22b9c;
 }
 .nav-item a:hover{
-    color: #e8ed76;
+    color: #8e9515;
 }
-#app{
-    color: #d1d0d7;
+#boton-perfil{ /* Para el boton de perfil el color, se hace con #*/ 
+    background-color: #d2a3f8;
+}
+#app{/*el color de la app de script, o sea la frase*/
+    color: #1285ea;
 }
 .boton-cv{/*este color debe convinar con el del perfil*/
     background-color: #8a9b0f;
     color: #e4e6c3;
 }
 .caja-habilidades{
-    background-color: #63203d;
+    background-color: #762387c5;
     color: #e4e6c3;
 }
+
 .btn-proyecto{
     background-color: #ba1e4a;
 }
@@ -42,21 +43,17 @@ header a{
     color: #63203d;
 }
 #contacto{
-    background-color: #88baa3;
+    background-color: #1ae8d7d1;
     color: #63203d;
 }
 #btn-contacto{
-    background-color: #8a9b0f;
+    background-color: #f98fff;
     color: #e4e6c3;
 }
 #btn-contacto:hover{
     background-color: #63203d;
 }
-body {
-    background-color: white;
-    font-family: sans-serif;
-    font-weight: bold;
-}
+
 footer ul li a .bi{
     color: #ba1e4a;
 }
