@@ -1,40 +1,33 @@
-a <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es"><!--este es para que este en español la pagina y no detecte traducciones-->
 
 <head>
   <meta charset="UTF-8">
-  <meta name="autor" content="Perla Xiomara San Juan Meza">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Perla Xiomara San Juan Meza</title>
-  <!--Con bootstrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU90FeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
-  <!--este link CDNde bootstrap es para poder revisar el icono de bootstrap-->
-  <link rel="stylesheet" href="https:cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <!--este es para colocar el icono de la pestaña osea el favicon, se tiene q tener la imagen del icono o tener descargado el svg-->
-  <link rel="shortcut icon" href="assets/code.svg" type="image/x-icon">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  <!--archivo Css -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- bootstrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- icons de bootstrap -->
+<link rel="stylesheet" href="https:cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="style.css">
   <!-- ESTILOS de letras -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+  <title>Perla Xiomara San Juan Meza</title>
 </head>
 
 <body>
-  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
-      <!--este svg es para el icoo que se tenia <svg class="bi me-2" width="40" height="32"><use xlink:href=#bootstrap"></use></svg>-->
+  <header class="d-flex flex-wrap justify-content-center py-4 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-8 me-md-auto text-decoration-none">
       <i class="bi bi-code p-3"></i> <!--este es la etiqueta de bootstrape para nuestro icono el p-3 es el padding-->
-      <span class="fs-4">Perla Xiomara San Juan Meza</span>
+      <span class="fs-8">Perla Xiomara San Juan Meza</span>
     </a>
 
     <ul class="nav nav-pills">
       <li class="nav-item boton-perfil">
         <a id="boton-perfil" href="#" class="nav-link active perfil" aria-current="page">Perfil</a>
       </li>
-      <li class=" nav-item"><a href="#hanging-icons" class="nav-link">Habilidades</a></li>
+      <li class="nav-item"><a href="#hanging-icons" class="nav-link">Habilidades</a></li>
       <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
       <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
       <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
@@ -55,7 +48,6 @@ a <!DOCTYPE html>
             Desarrolladora frontend Jr. apasionada por la lectura y el poder contruibuir a la
             presencia de las mujeres en carreras STEM, mis mayores fortalezas son mi capacidad de resolucion y mi
             proceso autodidacta.
-
           </p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
             <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton-cv">
@@ -92,8 +84,8 @@ a <!DOCTYPE html>
               <p>
                 He llevado a cabo Mantenimientos Preventivos y Correctivos a Equipamento Medico de diversas áreas
                 siguiendo las especificaciones del fabricante y dentro de la Normativa como:
-
               </p>
+              <small class="text-body-secondary"> Quirofano, CEyE, Imagenologia </small>
             </div>
           </div>
           <div class="col d-flex align-items-start">
@@ -105,7 +97,6 @@ a <!DOCTYPE html>
               <p>
                 He realizado informes interactivos y didacticos por medio de Power Bi en conjunto con Excel, asi como
                 gestionado bases de datos en diversas plataformas.
-
               </p>
             </div>
           </div>
@@ -113,9 +104,9 @@ a <!DOCTYPE html>
       </div>
     </div>
     <!--Proyectos-->
-    <div id="proyectos" class="proyectos container mt-5">
-      <h2 class="pb-2 border-bottom">Proyectos</h2>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div id="proyectos" class="proyectos-container mt-5">
+      <h2 class="pb-2 py-4 text-center border-bottom "> Proyectos</h2>
+      <div class="row row-cols-row-cols-sm-2 row-cols-md-3 p-4 g-3">
         <div class="col">
           <div class="card shadow-sm">
             <!--imagen-->
@@ -131,7 +122,7 @@ a <!DOCTYPE html>
                     <a target="_blank" href="https://github.com/MaraMesza/pinterest-clon">Github</a>
                   </button>
                 </div>
-                <small class="" text-body-secondary"> HTML, CSS Y JS </small>
+                <small class="text-body-secondary"> HTML, CSS Y JS </small>
               </div>
             </div>
           </div>
@@ -169,7 +160,7 @@ a <!DOCTYPE html>
                     <a target="_blank" href="              ">Ver</a>
                   </button>
                   <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto">
-                    <a target="_blank" href" ">Github</a>
+                    <a target="_blank" href="https://https://github.com/MaraMesza">Github</a>
                     </button>
                   </div>
                 </div>
@@ -183,14 +174,13 @@ a <!DOCTYPE html>
        <div id=" testimonios" class="Testimonios container mt-5">
                       <h2 class="pb-2 border-bottom">Testimonios</h2>
                       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-
                         <div class="carousel-inner">
                           <!--item-->
                           <div class="carousel-item active">
-                            <div class="d-flex justify content-center"><!--indica que tiene un display flex-->
+                            <div class="d-flex justify-content-center"> <!--indica que tiene un display flex-->
                               <!--card-->
                               <div class="card border-0" style="width: 18rem;">
-                                <img src="assets/mentora.webp" class="card-img-top rounded-circle" alt="testimonio1">
+                                <img src="assets/mentora.webp" class="card-img-top rounded-circle" alt="testimonio1" />
                                 <h5 class="card-title text-center">Anel Montes</h5>
                                 <h6 class="card-subtitle text-center mb-1 text-body-secondary">Mentora</h6>
                                 <div class="card-body">
@@ -210,21 +200,17 @@ a <!DOCTYPE html>
 
                           <!--item-->
                           <div class="carousel-item">
-                            <div class="d-flex justify content-center">
+                            <div class="d-flex justify-content-center">
                               <!--Card 2-->
                               <div class="card border-0" style="width: 18rem;">
-                                <img src="assets/testi2.png" class="card-img-top rounded-circle" alt="testimonio2">
+                                <img src="assets/testi2.jpg" class="card-img-top rounded-circle" alt="testimonio2" />
                                 <h5 class="card-title text-center">Ary Luna</h5>
                                 <h6 class="card-subtitle text-center mb-1 text-body-secondary">Compañera</h6>
                                 <div class="card-body">
                                   <p class="card-text">Tuve la gran oportunidad de compartir con Xiomara en el bootcamp
-                                    de
-                                    Technolochicas Pro. Sin duda alguna, demostró ser una excelente desarrolladora
-                                    front-end, con una
-                                    notable facilidad de aprendizaje y destacando por sus magníficos diseños. Fue un
-                                    placer conocerle,
-                                    y espero seguir de cerca sus futuras creaciones. El futuro que le espera es
-                                    asombroso.</p>
+                                    de Technolochicas Pro. Sin duda alguna, demostró ser una excelente desarrolladora
+                                    front-end, con una notable facilidad de aprendizaje y destacando por sus magníficos diseños. Fue un
+                                    placer conocerle, y espero seguir de cerca sus futuras creaciones. El futuro que le espera es asombroso.</p>
                                 </div>
                               </div>
                               <!--fin card2-->
@@ -232,26 +218,22 @@ a <!DOCTYPE html>
                           </div>
 
                           <div class="carousel-item">
-                            <div class="d-flex justify content-center">
+                            <div class="d-flex justify-content-center">
                               <!--Inicio card3-->
                               <div class="card" style="width: 18rem;">
-                                <img src="assets/testi3.png" class="card-img-top rounded-circle" alt="testimonio3">
+                                <img src="assets/testi3.jpg" class="card-img-top rounded-circle" alt="testimonio3" />
                                 <h5 class="card-title text-center">APGV </h5>
                                 <h6 class="card-subtitle text-center mb-1 text-body-secondary">Compañera</h6>
                                 <div class="card-body">
                                   <p class="card-text">He tenido la oportunidad de ver el trabajo de Xiomara como
-                                    programadora y
-                                    realmente me ha impresionado. Sus habilidades técnicas y su capacidad para
-                                    desarrollar soluciones
-                                    efectivas son notables. Siempre entrega proyectos bien estructurados y de alta
-                                    calidad. Es una
-                                    profesional comprometida y confiable, y sin duda su trabajo habla por sí mismo.</p>
+                                    programadora y realmente me ha impresionado. Sus habilidades técnicas y su capacidad para
+                                    desarrollar soluciones efectivas son notables. Siempre entrega proyectos bien estructurados y de alta
+                                    calidad. Es una profesional comprometida y confiable, y sin duda su trabajo habla por sí mismo.</p>
                                 </div>
                               </div>
                               <!--fin card3-->
                             </div>
                           </div>
-
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
                           data-bs-slide="prev">
@@ -264,13 +246,13 @@ a <!DOCTYPE html>
                           <span class="visually-hidden">Next</span>
                         </button>
                       </div>
-                </div>
+                    </div>
                 <!--CONTACTO-->
-                <div class="px-4 py-5 my-5 text-center">
-                  <i class="d-block mx auto mb-4 fs-6 bi bi-chat-right-text-fill"></i>
-                  <h1 class="display-5 fw-bold text-body-emphasis-5">Centered hero</h1>
+                <div id="contacto" class="px-4 py-5 my-5 text-center">
+                  <i class="d-block mx-auto mb-4 fs-1 bi bi-chat-right-text-fill"></i>
+                  <h1 class="display-5 fw-bold ">Contactame</h1>
                   <div class="col-lg-6 mx-auto">
-                    <p class="lead mb-4"> Contactame para iniciar un proyecto de desarrollo Web.</p>
+                    <p class="lead mb-4">Contáctame para iniciar un proyecto de desarrollo web.</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                       <a href="mailto:px.sanjuanmeza@gmail.com">
                         <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Invitame</button>
@@ -294,8 +276,8 @@ a <!DOCTYPE html>
   </footer>
 
   <!--script para que bootstrap funcione-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY31HB60NNkmXc5s9fDVZLESaAA55NDzOxhy8GkcIdslK1eN7N6jIeHz"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
     crossorigin="anonymous"></script>
   <!-- CDN de typewriter, typewrite es como una libreria de animacion de Js-->
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
