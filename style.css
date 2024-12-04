@@ -53,7 +53,9 @@ header a{/*lo q esta dentro de los A en este caso 2 cajas el nombre y las pesta√
 #btn-contacto:hover{
     background-color: #63203d;
 }
-
+footer{
+    text-decoration: none;
+}
 footer ul li a .bi{
     color: #ba1e4a;
 }
